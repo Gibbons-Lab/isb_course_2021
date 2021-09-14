@@ -109,6 +109,22 @@ if __name__ == "__main__":
             "could not install Qiime 2 :sob:",
             ":mag: Done."
         )
+
+        run_and_check(
+            ["conda", "env", "update", "-n", "base", "--file", QIIME_YAML],
+            "To activate this environment, use",
+            ":mag: Installing Qiime 2. This may take a little bit.\n :clock1:",
+            "could not install Qiime 2 :sob:",
+            ":mag: Done."
+        )
+
+        run_and_check(
+            ["pip", "install", "empress"],
+            "Successfully installed empress-",
+            ":evergreen_tree: Installing Empress...",
+            "could not install Empress :sob:",
+            ":evergreen_tree: Done."
+        )
     else:
         con.log(":mag: Qiime 2 is already installed. Skipped.")
 

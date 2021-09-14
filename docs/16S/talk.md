@@ -109,7 +109,7 @@ Major changes:
 ## Where to find help?
 
 QIIME 2 comes with a lot of help, including a wide range of [tutorials](https://docs.qiime2.org/2021.4/tutorials/),
-[general documentation](https://docs.qiime2.org/2021.4/) and a
+[general documentation](https://docs.qiime2.org/2021.8/) and a
 [user forum](https://forum.qiime2.org/) where you can ask questions.
 
 ---
@@ -142,28 +142,31 @@ meant for human consumption :point_up:.
 
 ---
 
-<!-- .slide: data-background="var(--primary)" class="dark" -->
+<!-- .slide: data-background="assets/birds_eye_nathan_jennings.jpg" class="dark" -->
 
-## Analyzing gut microbial composition during recurrent <i>C. diff</i> infections
-
-16S amplicon sequencing data of the V4 region from human fecal samples
-
-4 healthy donors and 4 individuals with recurrent infection.
-
-https://doi.org/10.1186/s40168-015-0070-0
+# The Earth Microbiome Project
 
 ---
 
+### A communal catalogue reveals Earth’s multiscale microbial diversity
 
-## The <i>C. diff</i> infection cycle
-
-<img src="assets/cycle.png" height="550vh">
+<img src="assets/emp_fig1.webp" height="450vh">
 
 <div class="footnote">
 
-courtesy of [Stephanie Swegle](https://see.isbscience.org/steam2019/stephanie-3/)
+https://doi.org/10.1038/nature24621
 
 </div>
+
+---
+
+## Our samples
+
+<img src="assets/sample_sources.png" width="100%">
+
+- 15 samples from 5 environments
+- honey bee gut, cenotes in Yucatan, ocean, human gut, soil
+
 
 ---
 
