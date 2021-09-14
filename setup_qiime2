@@ -48,7 +48,7 @@ def cleanup():
         os.remove(QIIME_YAML)
     if os.path.exists("sample_data"):
         shutil.rmtree("sample_data")
-    con.log(":br0om: Cleaned up unneeded files.")
+    con.log(":broom: Cleaned up unneeded files.")
 
 
 def run_and_check(args, check, message, failure, success, console=con):
