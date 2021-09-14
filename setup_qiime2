@@ -46,8 +46,8 @@ def cleanup():
         os.remove("Miniconda3-latest-Linux-x86_64.sh")
     if os.path.exists(QIIME_YAML):
         os.remove(QIIME_YAML)
-    if os.path.exists("sample_data"):
-        shutil.rmtree("sample_data")
+    if os.path.exists("/content/sample_data"):
+        shutil.rmtree("/content/sample_data")
     con.log(":broom: Cleaned up unneeded files.")
 
 

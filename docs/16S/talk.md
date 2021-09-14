@@ -1,4 +1,4 @@
-<!-- .slide: data-background="assets/isb/data-midnight.jpg" class="dark" -->
+<!-- .slide: data-background="assets/isb/microbes-midnight.jpg" class="dark" -->
 
 # Amplicon Sequencing Data Analysis with QIIME 2
 
@@ -396,7 +396,7 @@ What is the relationship between particular *taxa* and the disease state?
 
 ---
 
-<!-- .slide: data-background="var(--primary)" class="dark" -->
+<!-- .slide: data-background="assets/isb/microbes-azure.jpg" class="dark" -->
 
 ### And we are done :clap:
 
