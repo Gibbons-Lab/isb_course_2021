@@ -22,7 +22,6 @@ MINICONDA_PATH = (
 QIIME_YAML_TEMPLATE = (
     "https://data.qiime2.org/distro/core/qiime2-{version}-py{python}-linux-conda.yml"
 )
-QIIME_YAML = os.path.basename(QIIME_YAML_URL)
 
 if len(sys.argv) == 2:
     version = sys.argv
@@ -35,6 +34,7 @@ else:
     pyver = "38"
 
 QIIME_YAML_URL = QIIME_YAML_TEMPLATE.format(version=version, python=pyver)
+QIIME_YAML = os.path.basename(QIIME_YAML_URL)
 
 
 def cleanup():
