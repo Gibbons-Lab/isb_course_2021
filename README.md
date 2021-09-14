@@ -1,8 +1,7 @@
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
-![GitHub release](https://img.shields.io/github/tag/Gibbons-Lab/isb_course_2020.svg)
+![GitHub release](https://img.shields.io/github/tag/Gibbons-Lab/isb_course_2021.svg)
 ![QIIME 2 version](https://img.shields.io/badge/Qiime%202%20version-2021.8-blue.svg)
-[![part 1](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=part1)](https://gibbons-lab.github.io/isb_course_2020/16S)
-[![part 2](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=part2)](https://gibbons-lab.github.io/isb_course_2020/micom)
+[![part 1](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=part1)](https://gibbons-lab.github.io/isb_course_2021/16S)
+[![part 2](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=part2)](https://gibbons-lab.github.io/isb_course_2021/micom)
 
 
 # Data and Materials for the 2020 ISB Microbiome Course
@@ -26,10 +25,10 @@ the directional buttons on your keyboard.
 A [PDF version](part1.pdf) (lacks the output previews) is also available.
 
 
-## Part 2: Modeling microbiota-wide metabolism with MICOM
+## Part 2: Metabolic Modeling of Bacterial Isolates
 
-Presentation: [![part 2](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=part2)](https://gibbons-lab.github.io/isb_course_2020/micom)
-Notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gibbons-Lab/isb_course_2020/blob/master/micom.ipynb)
+Presentation: [![part 2](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=part2)](https://gibbons-lab.github.io/isb_course_2020/models)
+Notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gibbons-Lab/isb_course_2020/blob/master/models.ipynb)
 
 You can see the actual workshop walkthrough at
 https://gibbons-lab.github.io/isb_course_2020/micom. Press `?` to get a list
@@ -38,26 +37,15 @@ some slides are grouped vertically, you can navigate the presentation using
 the directional buttons on your keyboard.
 A [PDF version](part2.pdf) (lacks the output previews) is also available.
 
+# Licenses
 
-# For teachers
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br>
+Source code is licensed under the Apache License 2.0.
 
-## Use case
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />Content and artwork is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
-The course presentations are meant to be compatible with common equipment available to students, so they
-can be encouraged to open it on their smartphone (landscape mode required)
-while they run commands on the terminal.
 
-This workshop focuses on the command line
-interface of QIIME 2 and basically works with the command line alone. So it should
-be usable whether you use a server, cloud, or local deployment of QIIME 2. Make sure
-to give clear instructions on how to connect to the server across different operating
-systems :point_up:
-
-In order to minimize the need to transfer files between a server and the local
-machine all output is pre-generated and the visualizations are included directly
-in the presentation.
-
-## Technicalities
+# FAQ
 
 ### How do the presentation slides work?
 
