@@ -5,6 +5,7 @@ Do not use this on o local machine, especially not as an admin!
 
 import os
 import sys
+import shutil
 from subprocess import Popen, PIPE
 
 r = Popen(["pip", "install", "rich"])
@@ -43,7 +44,9 @@ def cleanup():
         os.remove("Miniconda3-latest-Linux-x86_64.sh")
     if os.path.exists(QIIME_YAML):
         os.remove(QIIME_YAML)
-    con.log("Cleaned up unneeded files.")
+    if os.path.exists("sample_data"):
+        shutil.rmtree("sample_data")
+    con.log(":br0om: Cleaned up unneeded files.")
 
 
 def run_and_check(args, check, message, failure, success, console=con):
@@ -88,7 +91,7 @@ if __name__ == "__main__":
             "installation finished.",
             ":snake: Installing miniconda...",
             "could not install miniconda :sob:",
-            ":snake: Installed miniconda to `/usr/local` :snake:"
+            ":snake: Installed miniconda to `/usr/local`."
         )
     else:
         con.log(":snake: Miniconda is already installed. Skipped.")
@@ -99,14 +102,6 @@ if __name__ == "__main__":
             "saved",
             ":mag: Downloading Qiime 2 package list...",
             "could not download package list :sob:",
-            ":mag: Done."
-        )
-
-        run_and_check(
-            ["conda", "env", "update", "-n", "base", "--file", QIIME_YAML],
-            "To activate this environment, use",
-            ":mag: Installing Qiime 2. This may take a little bit.\n :clock1:",
-            "could not install Qiime 2 :sob:",
             ":mag: Done."
         )
 
