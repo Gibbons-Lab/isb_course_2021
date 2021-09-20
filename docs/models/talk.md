@@ -1,16 +1,16 @@
 <!-- .slide: data-background="assets/isb/data-midnight.jpg" class="dark" -->
 
-# Modeling microbiota-wide metabolism with MICOM
+# Metabolic Modeling of Baterial Isolates
 
 ### Christian Diener, Gibbons Lab
 
 <img src="assets/isb/logo.png" width="40%">
 
-from the *ISB Microbiome Course 2020*
+from the *2021 ISB Virtual Microbiome Series*
 
 <br>
 <div class="footer">
-<a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fa fa-bullhorn"></i>CC-BY-NC</a>
+<a href="https://creativecommons.org/licenses/by-sa/4.0/"><i class="fa fa-bullhorn"></i>CC-BY-SA</a>
 <a href="https://gibbons.isbscience.org/"><i class="fa fa-globe"></i>gibbons.isbscience.org</a>
 <a href="https://github.com/gibbons-lab"><i class="fa fa-github"></i>gibbons-lab</a>
 <a href="https://twitter.com/thaasophobia"><i class="fa fa-twitter"></i>@thaasophobia </a>
@@ -22,7 +22,7 @@ from the *ISB Microbiome Course 2020*
 
 Let's get the slides first (use your computer, phone, TV, fridge)
 
-*https://gibbons-lab.github.io/isb_course_2020/micom*
+*https://gibbons-lab.github.io/isb_course_2021/models*
 
 ---
 
@@ -34,7 +34,7 @@ Let's get the slides first (use your computer, phone, TV, fridge)
 
 <br>
 
-<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2020/blob/master/micom.ipynb"
+<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2021/blob/main/models.ipynb"
    target="_blank">Click me to open the notebook!</a>
 
 ---
@@ -111,117 +111,40 @@ Bacteria do not like to produce more enzymes than necessary.
 
 ---
 
-# MICOM
-
-<img src="assets/summary.png" width="100%">
-
-<div class="footnote">
-
-https://micom-dev.github.io/micom
-
-</div>
-
----
-
-<img src="assets/overview.png" width="120%">
-
----
-
 <!-- .slide: data-background="var(--primary)" class="dark" -->
-
-## Let's continue with our data
-
-:computer: Let's switch to the notebook...
-
----
-
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
-## Community-wide growth is hard :cry:
-
-In a single genome-scale model we only have a single growth rate $\mu$. In a microbial community
-we have several $\mu_i$ and a community growth rate
-
-$$
-\mu_c = \sum_i a_i\cdot\mu_i
-$$
-
-Why is this so hard? Can't we just maximize the community growth rate? Well...
-
----
-
-## When 2 leads to infinity...
-
-<img src="assets/ctFBA.png" width="60%">
-
----
-
-*Cooperative Tradeoff FBA* allows us to treat metagenome-scale models with the *same*
-methods as genome-scale metabolic models (pFBA, minimal media, etc).
-
----
-
-## But does it work?
-
-<img src="assets/validation.png" width="100%">
-
-<div class="footnote">
-
-https://doi.org/10.1128/mSystems.00606-19
-
-</div>
-
----
-
-Easy peasy. What's taking so long then?
-
-<br>
-
-Well, metagenome-scale models are slightly larger... :sweat:
-
----
-
-<img src="assets/model_gephi.png" width="50%">
-
-<div class="footnote">
-
-69,441 reactions / 46,883 metabolites / 292,699 connections
-
-</div>
-
----
-
-## The niche space
-
-<img src="assets/fig4.png" width="100%">
-
----
-
-## Metabolic connections with disease
-
-<img src="assets/fig5.png" width="100%">
-
----
-
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
-We observed that the *overall production flux* $v_p = \sum a_i\cdot v_i^{ex}$
-is most directly related to the phenotype.
-
-This is the flux the *intestinal cells* can interact with.
 
 ---
 
 ## Your turn
 
-Check out how to use MICOM for a "n-of-1" analysis.
 
 <img src="assets/coding.gif" width="50%">
 
 ---
 
-<!-- .slide: data-background="var(--primary)" class="dark" -->
+<!-- .slide: data-background="assets/isb/microbes_aqua.jpg" class="dark" -->
 
 ### And we are done :clap:
+
+<div style="display: flex; justify-content: space-around">
+
+*ISB team* <br>
+Joey Petosa <br>
+Allison Kudla <br>
+Sean Gibbons <br>
+Priyanka Baloni <br>
+Tomasz Wilmanski <br>
+Noa Rappaport <br>
+Alex Carr
+
+*Photography credits* <br>
+Nathan Jennings <br>
+Dmitry Grigoriev <br>
+Jared Rice <br>
+Matt Hardy <br>
+Alex Block <br>
+Roman Synkevich
+
+</div>
 
 # Thanks!

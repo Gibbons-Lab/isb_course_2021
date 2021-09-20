@@ -4,23 +4,20 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
 
-	<title>Amplicon sequencing analysis with Qiime 2</title>
+	<title>2021 ISB Virtual Microbiome Series - part 1</title>
 
-	<link rel="stylesheet" href="reveal/css/reveal.css">
+	<link rel="stylesheet" href="reveal/dist/reveal.css">
 	<link rel="stylesheet" href="assets/css/isb.css">
 
 	<!-- Theme used for syntax highlighting of code -->
 	<link rel="stylesheet" href="assets/css/monokai.css">
 
 	<!-- Printing and PDF exports -->
-	<script>
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
-	</script>
+
 	<style>
 		.reveal .slides {
 			text-align: left;
@@ -43,31 +40,30 @@
 		</div>
 	</div>
 
-	<script src="reveal/lib/js/head.min.js"></script>
-	<script src="reveal/js/reveal.js"></script>
+	<script src="reveal/dist/reveal.js"></script>
+	<script src="reveal/plugin/notes/notes.js"></script>
+	<script src="reveal/plugin/markdown/markdown.js"></script>
+	<script src="reveal/plugin/highlight/highlight.js"></script>
+	<script src="reveal/plugin/math/math.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
 	<script>
 		// More info about config & dependencies:
 		// - https://github.com/hakimel/reveal.js#configuration
 		// - https://github.com/hakimel/reveal.js#dependencies
 		Reveal.initialize({
-			width: 1200,
-			height: 750,
+			width: 1600,
+			height: 900,
+			minScale: 0.2,
+  			maxScale: 5.0,
 			backgroundTransition: 'slide',
 			math: {
-				mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js',
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
 				config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
 			},
 			markdown: {
 				smartypants: true
 			},
-			dependencies: [
-				{ src: 'reveal/plugin/markdown/marked.js' },
-				{ src: 'reveal/plugin/markdown/markdown.js' },
-				{ src: 'reveal/plugin/notes/notes.js', async: true },
-				{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
-				{ src: 'reveal/plugin/math/math.js', async: true }
-			]
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
 		});
 
 		emojione.imageType = 'svg';

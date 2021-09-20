@@ -6,11 +6,11 @@
 
 <img src="assets/isb/logo.png" width="40%">
 
-from the *ISB Microbiome Course 2020*
+from the *2021 ISB Virtual Microbiome Series*
 
 <br>
 <div class="footer">
-<a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fa fa-bullhorn"></i>CC-BY-NC</a>
+<a href="https://creativecommons.org/licenses/by-sa/4.0/"><i class="fa fa-bullhorn"></i>CC-BY-SA</a>
 <a href="https://gibbons.isbscience.org/"><i class="fa fa-globe"></i>gibbons.isbscience.org</a>
 <a href="https://github.com/gibbons-lab"><i class="fa fa-github"></i>gibbons-lab</a>
 <a href="https://twitter.com/thaasophobia"><i class="fa fa-twitter"></i>@thaasophobia </a>
@@ -24,7 +24,7 @@ from the *ISB Microbiome Course 2020*
 
 Let's get the slides first (use your computer, phone, TV, fridge, anything with a 16:9 screen)
 
-*https://gibbons-lab.github.io/isb_course_2020/16S*
+*https://gibbons-lab.github.io/isb_course_2021/16S*
 
 ---
 
@@ -36,7 +36,7 @@ Let's get the slides first (use your computer, phone, TV, fridge, anything with 
 
 <br>
 
-<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2020/blob/master/16S.ipynb"
+<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2021/blob/main/16S.ipynb"
    target="_blank">Click me to open the notebook!</a>
 
 ---
@@ -55,7 +55,7 @@ Let's get the slides first (use your computer, phone, TV, fridge, anything with 
 
 *All* output we generate can be found in the `treasure_chest` folder at
 
-https://github.com/gibbons-lab/isb_course_2020/treasure_chest
+https://github.com/gibbons-lab/isb_course_2021/treasure_chest
 
 or `materials/treasure_chest` in the Colaboratory notebook.
 
@@ -123,7 +123,7 @@ into *actions* to either produce other artifacts or *visualizations*.
 
 <div class="footnote">
 
-https://docs.qiime2.org/2021.4/tutorials/overview/
+https://docs.qiime2.org/2021.8/tutorials/overview/
 
 </div>
 
@@ -145,6 +145,8 @@ meant for human consumption :point_up:.
 <!-- .slide: data-background="assets/birds_eye_nathan_jennings.jpg" class="dark" -->
 
 # The Earth Microbiome Project
+
+<div style="height: 60vh"></div>
 
 ---
 
@@ -390,7 +392,7 @@ often provides better *generalization* and faster results.
 
 ## Your turn
 
-What is the relationship between particular *taxa* and the disease state?
+What is the relationship between particular *taxa* and the environment they came from?
 
 <img src="assets/coding.gif" width="50%">
 
@@ -399,6 +401,27 @@ What is the relationship between particular *taxa* and the disease state?
 <!-- .slide: data-background="assets/isb/microbes-azure.jpg" class="dark" -->
 
 ### And we are done :clap:
+
+<div style="display: flex; justify-content: space-around">
+
+*ISB team* <br>
+Joey Petosa <br>
+Allison Kudla <br>
+Sean Gibbons <br>
+Priyanka Baloni <br>
+Tomasz Wilmanski <br>
+Noa Rappaport <br>
+Alex Carr
+
+*Photography credits* <br>
+Nathan Jennings <br>
+Dmitry Grigoriev <br>
+Jared Rice <br>
+Matt Hardy <br>
+Alex Block <br>
+Roman Synkevich
+
+</div>
 
 # Thanks!
 

@@ -387,9 +387,9 @@ section.has-dark-background, section.dark {
   margin-left: 4vw;
   width: calc(100% - 6vw); }
 
-.reveal .slides .pdf-page section {
+html.print-pdf .reveal .slides  section {
   left: 6vw !important;
-  padding-right: 8vw !important;
+  padding-right: 6vw !important;
 }
 
 @media screen and (max-width: 1024px) {
