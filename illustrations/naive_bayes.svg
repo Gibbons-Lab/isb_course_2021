@@ -10,9 +10,9 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="245.7971"
    inkscape:export-xdpi="245.7971"
-   inkscape:export-filename="/home/cdiener/teaching/isb_course_2020/docs/16S/assets/naive_bayes.png"
+   inkscape:export-filename="/home/cdiener/teaching/isb_course_2021/docs/16S/assets/naive_bayes.png"
    sodipodi:docname="naive_bayes.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    id="svg8"
    version="1.1"
    viewBox="0 0 200 100"
@@ -20,6 +20,26 @@
    width="200mm">
   <defs
      id="defs2">
+    <rect
+       x="61.760201"
+       y="88.727162"
+       width="48.708022"
+       height="7.1105554"
+       id="rect1644" />
+    <marker
+       style="overflow:visible"
+       id="TriangleOutM"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#616161;stroke-width:1pt;stroke-opacity:1;fill:#616161;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path1463" />
+    </marker>
     <rect
        x="179.78998"
        y="34.926701"
@@ -1156,9 +1176,9 @@
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:window-height="1140"
+     inkscape:window-height="1024"
      inkscape:window-width="1920"
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-center="false"
@@ -1168,9 +1188,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="188.86575"
-     inkscape:cx="403.47156"
-     inkscape:zoom="1.063215"
+     inkscape:cy="150.05601"
+     inkscape:cx="641.0916"
+     inkscape:zoom="2.7542432"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -1688,21 +1708,21 @@
        id="path3776" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 159.54498,28.770838 h 2.5002"
+       d="m 159.54498,29.300005 h 2.5002"
        id="path4601"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        id="text4603"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;white-space:pre;shape-inside:url(#rect4605);fill:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="matrix(0.67441974,0,0,0.67441974,36.73049,2.5069322)"><tspan
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;white-space:pre;shape-inside:url(#rect4605);fill:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;"
+       transform="matrix(0.67441974,0,0,0.67441974,36.814301,3.0093914)"><tspan
          x="189.15929"
          y="40.175111"><tspan
            style="fill:#000000">prior</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text4603-6"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;white-space:pre;shape-inside:url(#rect4605-3);fill:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;white-space:pre;shape-inside:url(#rect4605-3);fill:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;"
        transform="matrix(0.67441974,0,0,0.67441974,43.220181,13.804286)"
        x="-14.228199"
        y="0"><tspan
@@ -1712,5 +1732,18 @@
          x="179.78906"
          y="47.23066"><tspan
            style="text-align:start;text-anchor:start">frequencies</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#616161;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM);stroke-miterlimit:4;stroke-dasharray:0.9,0.9;stroke-dashoffset:0"
+       d="m 59.528432,90.484608 c -3.214808,0.908506 -6.646376,-0.312642 -8.190491,-4.325137"
+       id="path1316"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       id="text1642"
+       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect1644);opacity:1;fill:#616161;stroke:#c62828;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000;"
+       transform="translate(-1.5539077,-1.6591296)"><tspan
+         x="61.759766"
+         y="91.535693"><tspan
+           style="fill:#616161;stroke:none">methods differ here</tspan></tspan></text>
   </g>
 </svg>

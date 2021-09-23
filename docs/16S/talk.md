@@ -319,9 +319,9 @@ arranged by *sequence similarity* (branch length).
 
 ---
 
-You can visualize your tree using iTOL (https://itol.embl.de/).
+We can visualize this tree with [EMPRESS](https://github.com/biocore/empress).
 
-<img src="assets/tree.png" width="75%">
+<img src="https://raw.githubusercontent.com/biocore/empress/master/docs/moving-pictures/img/empire_sample_selection_outlierpalm_plus_gut.gif" width="75%">
 
 ---
 
