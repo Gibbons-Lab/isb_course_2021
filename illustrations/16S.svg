@@ -9,9 +9,9 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="243.84"
    inkscape:export-xdpi="243.84"
-   inkscape:export-filename="/home/cdiener/teaching/isb_course_2020/docs/16S/assets/16S.png"
+   inkscape:export-filename="/home/cdiener/teaching/isb_course_2021/docs/16S/assets/16S.png"
    sodipodi:docname="16S.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    id="svg8"
    version="1.1"
    viewBox="0 0 200 90"
@@ -75,8 +75,8 @@
        x="136.93257" />
     <rect
        id="rect2146-9-3"
-       height="19.723921"
-       width="27.908718"
+       height="21.01312"
+       width="37.48687"
        y="11.471751"
        x="136.93257" />
     <rect
@@ -160,9 +160,9 @@
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:window-height="1140"
+     inkscape:window-height="1024"
      inkscape:window-width="1920"
      inkscape:snap-global="true"
      showgrid="false"
@@ -171,7 +171,7 @@
      inkscape:document-units="mm"
      inkscape:cy="256.04857"
      inkscape:cx="370.93959"
-     inkscape:zoom="1.5191784"
+     inkscape:zoom="1.4538744"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -1268,9 +1268,9 @@
        style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;white-space:pre;shape-inside:url(#rect2146-9-3);fill:#757575;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers;"
        id="text2144-1-6"
        xml:space="preserve"><tspan
-         x="139.35938"
+         x="140.39068"
          y="16.721986"><tspan
-           style="shape-inside:url(#rect2146-9-3)">16S gene</tspan></tspan></text>
+           style="shape-inside:url(#rect2146-9-3)">marker gene</tspan></tspan></text>
     <g
        transform="matrix(0.55068035,0,0,0.55068035,32.048722,-34.92482)"
        id="g2888">
@@ -1386,9 +1386,9 @@
        id="text2924"
        style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;white-space:pre;shape-inside:url(#rect2918);fill:#000000;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers;"
        transform="matrix(0.83241783,0,0,0.83241783,-44.945834,29.813293)"><tspan
-         x="57.916228"
+         x="63.443541"
          y="-30.082702"><tspan
-           style="fill:#000000;stroke:none">16S amplicon sequencing</tspan></tspan></text>
+           style="fill:#000000;stroke:none">amplicon sequencing</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text2928"

@@ -79,9 +79,33 @@ video courtesy of [S. Nayyak](https://twitter.com/Na_y_ak) and [J. Iwasa](https:
 
 <!-- .slide: data-background="var(--secondary)" class="dark" -->
 
+# How do we get from sequencing data to metabolic reactions?
+
+Metabolic reactions are catalyzed by an organism's *enzymes* which are encoded
+in its *genes*.
+
+---
+
+## Genome Assembly
+
+---
+
+## Not so straight-forward
+
+<img src="assets/assembly_graph_k59.png" height="700vh">
+
+---
+
+## Finding genes
+
+---
+
+<!-- .slide: data-background="var(--secondary)" class="dark" -->
+
 # Flux Balance Analysis (FBA)
 
-Can we infer the most likely fluxes in a biological system?
+Can we infer the most likely fluxes in a biological system if we know all
+available metabolic reactions?
 
 ---
 
@@ -122,6 +146,12 @@ Bacteria do not like to produce more enzymes than necessary.
 
 ---
 
+<!-- .slide: data-background="var(--primary)" class="dark" -->
+
+## Challenge placeholder &#129440;
+
+---
+
 <!-- .slide: data-background="assets/isb/microbes_aqua.jpg" class="dark" -->
 
 ### And we are done :clap:
@@ -136,14 +166,6 @@ Priyanka Baloni <br>
 Tomasz Wilmanski <br>
 Noa Rappaport <br>
 Alex Carr
-
-*Photography credits* <br>
-Nathan Jennings <br>
-Dmitry Grigoriev <br>
-Jared Rice <br>
-Matt Hardy <br>
-Alex Block <br>
-Roman Synkevich
 
 </div>
 

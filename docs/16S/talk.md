@@ -142,6 +142,20 @@ meant for human consumption :point_up:.
 
 ---
 
+## Why the 16S gene?
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+
+<img src="assets/16S_rRNA.png" width="60%" style="margin: 1em">
+
+
+The 16S gene is *universal* and contains interspersed conserved regions perfect for *PCR* and
+variable regions with high *phylogenetic heterogeneity*.
+
+</div>
+
+---
+
 <!-- .slide: data-background="assets/birds_eye_nathan_jennings.jpg" class="dark" -->
 
 # The Earth Microbiome Project
@@ -395,6 +409,12 @@ often provides better *generalization* and faster results.
 What is the relationship between particular *taxa* and the environment they came from?
 
 <img src="assets/coding.gif" width="50%">
+
+---
+
+<!-- .slide: data-background="var(--primary)" class="dark" -->
+
+## Challenge placeholder &#129440;
 
 ---
 
