@@ -156,6 +156,8 @@ Bacteria do not like to produce more enzymes than necessary.
 
 ### And we are done :clap:
 
+<div style="display: flex; justify-content: space-around">
+
 *ISB team* <br>
 Joey Petosa <br>
 Allison Kudla <br>
@@ -166,3 +168,5 @@ Noa Rappaport <br>
 Alex Carr
 
 # Thanks!
+
+</div>
