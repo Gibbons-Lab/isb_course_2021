@@ -156,7 +156,7 @@ Bacteria do not like to produce more enzymes than necessary.
 
 ### And we are done :clap:
 
-<div style="display: flex; justify-content: space-around">
+<div style="display: flex; justify-content: space-around; align-items: center;">
 
 *ISB team* <br>
 Joey Petosa <br>
