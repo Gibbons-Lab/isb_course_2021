@@ -152,7 +152,7 @@ Bacteria do not like to produce more enzymes than necessary.
 
 ---
 
-<!-- .slide: data-background="assets/isb/microbes-aqua.jpg" class="dark" -->
+<!-- .slide: data-background="assets/isb/microbes-azure.jpg" class="dark" -->
 
 ### And we are done :clap:
 
