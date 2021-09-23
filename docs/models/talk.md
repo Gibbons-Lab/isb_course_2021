@@ -152,11 +152,9 @@ Bacteria do not like to produce more enzymes than necessary.
 
 ---
 
-<!-- .slide: data-background="assets/isb/microbes_aqua.jpg" class="dark" -->
+<!-- .slide: data-background="assets/isb/microbes-aqua.jpg" class="dark" -->
 
 ### And we are done :clap:
-
-<div style="display: flex; justify-content: space-around">
 
 *ISB team* <br>
 Joey Petosa <br>
@@ -166,7 +164,5 @@ Priyanka Baloni <br>
 Tomasz Wilmanski <br>
 Noa Rappaport <br>
 Alex Carr
-
-</div>
 
 # Thanks!
