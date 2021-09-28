@@ -144,15 +144,10 @@ meant for human consumption :point_up:.
 
 ## Why the 16S gene?
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-
-<img src="assets/16S_rRNA.png" width="60%" style="margin: 1em">
+![](assets/16S_gene.png)
 
 
-The 16S gene is *universal* and contains interspersed conserved regions perfect for *PCR* and
-variable regions with high *phylogenetic heterogeneity*.
-
-</div>
+The 16S gene is *universal* and contains interspersed conserved regions perfect for *PCR* priming and hypervariable regions with *phylogenetic heterogeneity*.
 
 ---
 
