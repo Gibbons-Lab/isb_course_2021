@@ -36,7 +36,7 @@
 					<section data-background="examples/assets/image2.png" data-notes="speaker notes 2">
 						<h1>2.1</h1>
 					</section>
-					<section>
+					<section data-background-image="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4gIcSUNDX1BST0ZJTEUAAQEAAAIMbGNtcwIQAABtbnRyUkdCIFhZWiAH3AABABkAAwApADlhY3NwQVBQTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWxjbXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApkZXNjAAAA/">
 						<h1>2.2</h1>
 					</section>
 					<section>
@@ -727,7 +727,16 @@
 					Reveal.right();
 					assert.equal( Reveal.getIndices().h, 0, 'looped from end to start' );
 
-					Reveal.configure({ loop: false });
+					Reveal.configure({ navigationMode: 'linear' });
+					Reveal.slide( 0, 0 );
+
+					Reveal.prev();
+					assert.notEqual( Reveal.getIndices().h, 0, 'looped from start to end in linear mode' );
+
+					Reveal.next();
+					assert.equal( Reveal.getIndices().h, 0, 'looped from end to start in linear mode' );
+
+					Reveal.configure({ loop: false, navigationMode: 'default' });
 				});
 
 
@@ -760,10 +769,12 @@
 				QUnit.test( 'background images', function( assert ) {
 					var imageSource1 = Reveal.getSlide( 0 ).getAttribute( 'data-background-image' );
 					var imageSource2 = Reveal.getSlide( 1, 0 ).getAttribute( 'data-background' );
+					var imageSource3 = Reveal.getSlide( 1, 1 ).getAttribute( 'data-background-image' );
 
 					// check that the images are applied to the background elements
 					assert.ok( Reveal.getSlideBackground( 0 ).querySelector( '.slide-background-content' ).style.backgroundImage.indexOf( imageSource1 ) !== -1, 'data-background-image worked' );
 					assert.ok( Reveal.getSlideBackground( 1, 0 ).querySelector( '.slide-background-content' ).style.backgroundImage.indexOf( imageSource2 ) !== -1, 'data-background worked' );
+					assert.ok( Reveal.getSlideBackground( 1, 1 ).querySelector( '.slide-background-content' ).style.backgroundImage.indexOf( imageSource3 ) !== -1, 'data-background worked' );
 				});
 
 
@@ -771,6 +782,31 @@
 				// EVENT TESTS
 
 				QUnit.module( 'Events' );
+
+				QUnit.test( 'beforeslidechange', function( assert ) {
+					var done = assert.async( 2 );
+
+					var normalEvent = function( event ) {
+						assert.ok( true, 'event fired' );
+						done();
+					}
+					var blockingEvent = function( event ) {
+						event.preventDefault();
+						assert.ok( true, 'event fired' );
+						done();
+					}
+
+					Reveal.on( 'beforeslidechange', normalEvent );
+					Reveal.slide( 2, 0 );
+					Reveal.off( 'beforeslidechange', normalEvent );
+
+					Reveal.on( 'beforeslidechange', blockingEvent );
+					Reveal.slide( 3, 0 );
+					Reveal.off( 'beforeslidechange', blockingEvent );
+
+					assert.strictEqual( Reveal.getIndices().h, 2, 'preventing "beforeslidechange" blocks navigation ' );
+
+				});
 
 				QUnit.test( 'slidechanged', function( assert ) {
 					assert.expect( 3 );

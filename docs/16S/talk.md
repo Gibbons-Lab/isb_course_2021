@@ -34,11 +34,6 @@ Let's get the slides first (use your computer, phone, TV, fridge, anything with 
 
 <img src="assets/materials.png" width="80%">
 
-<br>
-
-<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2021/blob/main/16S.ipynb"
-   target="_blank">Click me to open the notebook!</a>
-
 ---
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
@@ -46,6 +41,11 @@ Let's get the slides first (use your computer, phone, TV, fridge, anything with 
 # Setup
 
 :computer: Let's switch to the notebook and get started
+
+<br>
+
+<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2021/blob/main/16S.ipynb"
+   target="_blank">Click me to open the notebook!</a>
 
 ---
 
@@ -65,7 +65,7 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 
 # QIIME
 
-Pronounced like *chime*.
+Pronounced like wind *chime*.
 
 Created ~2010 during the Human Microbiome Project (2007 - 2016) under the leadership
 of Greg Caporaso and Rob Knight.
@@ -101,7 +101,6 @@ Major changes:
 - semantic *type system*
 - extendable *plugin* system
 - multiple *user interfaces* (in progress)
-
 
 
 ---
@@ -157,11 +156,17 @@ The 16S gene is *universal* and contains interspersed conserved regions perfect 
 
 <div style="height: 60vh"></div>
 
+<div class="footnote">
+
+Photo by Nathan Jennings.
+
+</div>
+
 ---
 
 ### A communal catalogue reveals Earth’s multiscale microbial diversity
 
-<img src="assets/emp_fig1.webp" height="450vh">
+<img src="assets/emp_fig1.webp" width="70%">
 
 <div class="footnote">
 
@@ -178,6 +183,13 @@ https://doi.org/10.1038/nature24621
 - 15 samples from 5 environments
 - honey bee gut, cenotes in Yucatan, ocean, human gut, soil
 
+<br><br><br>
+
+<div class="footnote">
+
+Photos by Dmitry Grigoriev, Jared Rice, Matt Hardy, Alex Block, and Roman Synkevich.
+
+</div>
 
 ---
 
@@ -189,7 +201,7 @@ https://doi.org/10.1038/nature24621
 
 ## Illumina FastQ files (Basespace)
 
-<img src="assets/illumina.png" width="60%">
+<img src="assets/illumina.png" width="50%">
 
 ```plaintext
 @SRR2143527.13917 13917 length=251
@@ -203,7 +215,7 @@ BBBBAF?A@D2BEEEGGGFGGGHGGGCFGFHHCFHCEFGGH...
 We have our raw sequencing data but QIIME 2 only operates on artifacts. How
 do we convert our data into an artifact??
 
-:egg: or :hatched_chick:?
+:hatched_chick: or :egg:?
 
 ---
 
@@ -417,7 +429,7 @@ What is the relationship between particular *taxa* and the environment they came
 
 ### And we are done :clap:
 
-<div style="display: flex; justify-content: space-around">
+<div style="display: flex; justify-content: space-around; align-items: center;">
 
 *ISB team* <br>
 Joey Petosa <br>
@@ -428,15 +440,7 @@ Tomasz Wilmanski <br>
 Noa Rappaport <br>
 Alex Carr
 
-*Photography credits* <br>
-Nathan Jennings <br>
-Dmitry Grigoriev <br>
-Jared Rice <br>
-Matt Hardy <br>
-Alex Block <br>
-Roman Synkevich
+# Thanks!
 
 </div>
-
-# Thanks!
 

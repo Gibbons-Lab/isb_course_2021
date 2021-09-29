@@ -387,6 +387,17 @@ section.has-dark-background, section.dark {
   margin-left: 4vw;
   width: calc(100% - 6vw); }
 
+.reveal .reveal-toolbar {
+  left: 1vw !important;
+  width: 4vw;
+  z-index: 2;
+}
+
+.reveal .reveal-toolbar.reveal-toolbar-top .reveal-toolbar-button {
+  margin-bottom: 4px;
+  background-color: var(--primary);
+}
+
 html.print-pdf .reveal .slides  section {
   left: 6vw !important;
   padding-right: 6vw !important;

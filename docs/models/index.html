@@ -48,8 +48,8 @@
 		// - https://github.com/hakimel/reveal.js#configuration
 		// - https://github.com/hakimel/reveal.js#dependencies
 		Reveal.initialize({
-			width: 1440,
-			height: 810,
+			width: 1600,
+			height: 900,
 			minScale: 0.2,
   			maxScale: 5.0,
 			backgroundTransition: 'slide',
@@ -60,7 +60,19 @@
 			markdown: {
 				smartypants: true
 			},
-			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ],
+			dependencies: [{ src: 'reveal/plugin/toolbar/toolbar.js', async: true }],
+			toolbar: {
+				position: 'top',
+				fullscreen: true,
+				overview: false,
+				pause: true,
+				notes: false,
+				help: true,
+				captureMenu: false,
+				capturePlaybackControl: false,
+				loadIcons: false
+		}
 		});
 
 		emojione.imageType = 'svg';
