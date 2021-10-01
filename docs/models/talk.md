@@ -45,13 +45,13 @@ Tries to predict what the microbiome *does* from sequencing data.
 
 Uses gene/transcript/protein/metabolite abundances (metagenomics, metatranscriptomics, proteomics or metabolomics).
 
-Gene content yields metabolic *capacity* or *potential*.
+Gene content provides insights into metabolic *capacity* or *potential*.
 
 ---
 
 <!-- .slide: data-background="var(--secondary)" class="dark" -->
 
-# Genes and metabolite abundances are cool but not what you really care about*
+# Genes and metabolite abundances are cool and all, but what you should really care about are metabolic fluxes*
 
 <div class="footnote">
 
@@ -81,7 +81,7 @@ video courtesy of [S. Nayyak](https://twitter.com/Na_y_ak) and [J. Iwasa](https:
 
 # Flux Balance Analysis (FBA)
 
-Can we infer the most likely fluxes in a biological system if we know all
+Can we infer the most likely fluxes in a biological system, given a set of environmental constraints, if we know all
 available metabolic reactions?
 
 ---
@@ -93,7 +93,7 @@ available metabolic reactions?
 
 ---
 
-The goal of FBA is to *reduce* the flux space to a *biologically relevant* one.
+The goal of FBA is to *reduce* the overall flux space to a *biologically relevant* one.
 
 ---
 
@@ -107,7 +107,7 @@ The goal of FBA is to *reduce* the flux space to a *biologically relevant* one.
 
 # How do we get from sequencing data to metabolic reactions?
 
-Metabolic reactions are catalyzed by an organism's *enzymes* which are encoded
+Metabolic reactions are catalyzed by an organism's *enzymes*, which are encoded
 in its *genes*.
 
 So what we need is a *genome*.
@@ -148,13 +148,13 @@ https://github.com/hyattpd/Prodigal
 
 <!-- .slide: data-background="var(--secondary)" class="dark" -->
 
-# Genome-scale Metabolic Model Reconstruction
+# Genome-Scale Metabolic Model Reconstruction
 
-Mapping to reference databases we will only ever identify a small set (~1/3) of all enzymes and transporters in a genome.
+When mapping to reference databases, we will only ever identify a small set (~1/3) of all enzymes and transporters in a given genome.
 
-We need to fill in the gaps in metabolic pathways by posing *functional objectives* for the model.
+We need to fill in the critical gaps in metabolic pathways by imposing *functional objectives* on the model.
 
-What is the basic objective for a living bacterium?
+What's a reasonable objective that you'd attribute to a living bacterium?
 
 ---
 
@@ -170,22 +170,22 @@ What is the basic objective for a living bacterium?
 
 ## Curated reconstructions
 
-*Curation* is the process of adding or removing reactions to the model based on experimental evidence.
+*Curation* is the process of adding or removing reactions to/from the model based on experimental evidence.
 
 <br>
 
 #### Basic
 
-- structural quality ([MEMOTE](https://doi.org/10.1038/s41587-020-0446-y))
-- gap-filling for a standard growth medium (LB, M9, ...)
+- check structural quality ([MEMOTE](https://doi.org/10.1038/s41587-020-0446-y))
+- gap-filling on a standard growth medium (LB, M9, ...)
 - example: [carveME EMBL GEMs](https://github.com/cdanielmachado/embl_gems) - 5587 strains
 
 <br><br>
 
 #### Stringent
 
-- growth on various carbon sources ("likes maltose but not glucose")
-- known metabolic conversion ("produces indole from tryptophan")
+- growth on various carbon sources (e.g. "likes maltose, but not glucose")
+- known metabolic conversion (e.g. "produces indole from tryptophan")
 - strain-specific biomass composition
 - example: [AGORA](https://www.vmh.life/#microbes/) - 818 strains from human gut
 
@@ -207,9 +207,9 @@ What is the basic objective for a living bacterium?
 ## Limitations
 
 - unknown enzymes/pathways are never captured
-- dependency on universal model
+- dependency on a universal model
 - hard to formulate growth media
-- growth objective may not always apply (toxicity, human tissues)
+- growth objective may not always apply (e.g. toxicity, human tissues)
 
 ---
 
@@ -217,7 +217,7 @@ What is the basic objective for a living bacterium?
 
 <img src="assets/coding.gif" width="50%">
 
-Let's go from assembly to a genome-scale metabolic model.
+Let's go from an isolate genome assembly to a genome-scale metabolic model.
 
 ---
 
@@ -245,7 +245,7 @@ from the *2021 ISB Virtual Microbiome Series*
 
 # Optimal growth rate ≠ unique fluxes
 
-Even though FBA yields a unique estimate of the maximum growth rate it does not give us a unique flux solution.
+Even though FBA yields a unique estimate of the maximum growth rate, it does not give us a unique flux solution.
 
 Can we constrain the flux space even further?
 
@@ -257,7 +257,7 @@ Can we constrain the flux space even further?
 
 - Bacteria do not like to produce more enzymes than necessary.
 - Zero flux = no enzyme required.
-- Reproduces experimental fluxes in <i>E. coli</i> [very well](https://dx.doi.org/10.1038%2Fmsb.2010.47).
+- Parsimony reproduces experimental fluxes in <i>E. coli</i> [very well](https://dx.doi.org/10.1038%2Fmsb.2010.47).
 
 ---
 
@@ -268,13 +268,13 @@ uptake constraints is *critical* for realistic results.
 
 Quantitative > qualitative >> unconstrained
 
-Uptake and secretion fluxes are much easier to measure than internal fluxes (can use longitudinal metabolomics).
+Uptake and secretion fluxes are much easier to measure than internal fluxes (e.g. you can use longitudinal metabolomics).
 
 ---
 
 ## Your turn
 
-Let's get the fluxes for our models.
+Let's estimate the fluxes for our models.
 
 <img src="assets/coding.gif" width="50%">
 
@@ -286,19 +286,19 @@ Let's get the fluxes for our models.
 
 [Ecology](https://en.wikipedia.org/wiki/Ecology) is the study of the relationships between living organisms and their physical environment.
 
-[Reverse Ecology](https://en.wikipedia.org/wiki/Reevrse_ecology) is the study of an organisms ecology based on its genome.
+[Reverse Ecology](https://en.wikipedia.org/wiki/Reevrse_ecology) is the study of an organism's genome as a means to estimate its ecological niche.
 
 ---
 
-## Wait, did we just stumble into Reverse Ecology?
+## Wait, why did we just stumble into Reverse Ecology?
 
 Systems Biology lingo:
->All strains were simulated in the exact same environment but had different *uptake rates* to obtain their *maximum growth rate*.
+>All strains were simulated under the exact same environmental conditions, but they each showed different *uptake rates* for different sets of metabolites to obtain their *maximum growth rate*.
 
 Ecology lingo:
->We estimated the *realized niche* of bacterial strains under *optimal fitness*.
+>We estimated the *realized niche* of bacterial strains grown in isolation under an *optimal fitness* objective.
 
-What does it mean if two strains use similar niches, or very different ones? Thinks about the human gut where many of them may be present at the same time.
+What would it mean ecologically for two strains to inhabit very similar metabolic niches, or very different ones? Think about the human gut, where many of these strains may be present at the same time.
 
 ---
 
@@ -325,11 +325,16 @@ Let's combine *all* the results.
 *ISB team* <br>
 Joey Petosa <br>
 Allison Kudla <br>
+Christian Diener <br>
 Sean Gibbons <br>
 Priyanka Baloni <br>
 Tomasz Wilmanski <br>
 Noa Rappaport <br>
-Alex Carr
+Alex Carr <br>
+Audri Hubbard <br>
+Renee Duprel <br>
+Joe Myxter <br>
+Thea Swanson
 
 # Thanks!
 
