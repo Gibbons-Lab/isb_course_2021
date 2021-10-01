@@ -241,10 +241,28 @@ Can we constrain the flux space even further?
 
 ---
 
-<!-- .slide: data-background="var(--primary)" class="dark" -->
+<!-- .slide: data-background="var(--secondary)" class="dark" -->
 
-# Break Time :clock:
+FBA results strongly depend on the *environmental conditions*. Finding
+uptake constraints is *critical* for realistic results.
 
+Quantitative > qualitative >> unconstrained
+
+Uptake and secretion fluxes are much easier to measure than internal fluxes (e.g. you can use longitudinal metabolomics).
+
+---
+
+## Your turn
+
+Let's estimate the fluxes for our models.
+
+<img src="assets/coding.gif" width="50%">
+
+---
+
+<!-- .slide: data-background="assets/isb/microbes-azure.jpg" class="dark" -->
+
+# Break :clock:
 
 ---
 
@@ -266,24 +284,6 @@ from the *2021 ISB Virtual Microbiome Series*
 <a href="https://twitter.com/thaasophobia"><i class="fa fa-twitter"></i>@thaasophobia </a>
 </div>
 
----
-
-<!-- .slide: data-background="var(--secondary)" class="dark" -->
-
-FBA results strongly depend on the *environmental conditions*. Finding
-uptake constraints is *critical* for realistic results.
-
-Quantitative > qualitative >> unconstrained
-
-Uptake and secretion fluxes are much easier to measure than internal fluxes (e.g. you can use longitudinal metabolomics).
-
----
-
-## Your turn
-
-Let's estimate the fluxes for our models.
-
-<img src="assets/coding.gif" width="50%">
 
 ---
 
