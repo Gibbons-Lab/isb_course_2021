@@ -221,27 +221,7 @@ Let's go from an isolate genome assembly to a genome-scale metabolic model.
 
 ---
 
-<!-- .slide: data-background="assets/isb/data-midnight.jpg" class="dark" -->
-
-# Reverse ecology: inferring environmental interactions with metabolic models
-
-### Christian Diener, Gibbons Lab
-
-<img src="assets/isb/logo.png" width="40%">
-
-from the *2021 ISB Virtual Microbiome Series*
-
-<br>
-<div class="footer">
-<a href="https://creativecommons.org/licenses/by-sa/4.0/"><i class="fa fa-bullhorn"></i>CC-BY-SA</a>
-<a href="https://gibbons.isbscience.org/"><i class="fa fa-globe"></i>gibbons.isbscience.org</a>
-<a href="https://github.com/gibbons-lab"><i class="fa fa-github"></i>gibbons-lab</a>
-<a href="https://twitter.com/thaasophobia"><i class="fa fa-twitter"></i>@thaasophobia </a>
-</div>
-
----
-
-<!-- .slide: data-background="var(--secondary)" class="dark" -->
+!-- .slide: data-background="var(--secondary)" class="dark" -->
 
 # Optimal growth rate ≠ unique fluxes
 
@@ -277,6 +257,26 @@ Uptake and secretion fluxes are much easier to measure than internal fluxes (e.g
 Let's estimate the fluxes for our models.
 
 <img src="assets/coding.gif" width="50%">
+
+---
+
+<!-- .slide: data-background="assets/isb/data-midnight.jpg" class="dark" -->
+
+# Reverse ecology: inferring environmental interactions with metabolic models
+
+### Christian Diener, Gibbons Lab
+
+<img src="assets/isb/logo.png" width="40%">
+
+from the *2021 ISB Virtual Microbiome Series*
+
+<br>
+<div class="footer">
+<a href="https://creativecommons.org/licenses/by-sa/4.0/"><i class="fa fa-bullhorn"></i>CC-BY-SA</a>
+<a href="https://gibbons.isbscience.org/"><i class="fa fa-globe"></i>gibbons.isbscience.org</a>
+<a href="https://github.com/gibbons-lab"><i class="fa fa-github"></i>gibbons-lab</a>
+<a href="https://twitter.com/thaasophobia"><i class="fa fa-twitter"></i>@thaasophobia </a>
+</div>
 
 ---
 
