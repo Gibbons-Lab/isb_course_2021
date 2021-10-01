@@ -152,9 +152,9 @@ https://github.com/hyattpd/Prodigal
 
 When mapping to reference databases, we will only ever identify a small set (~1/3) of all enzymes and transporters in a given genome.
 
-We need to fill in the critical gaps in metabolic pathways by imposing *functional objectives* on the model.
+We need to fill in the critical gaps in metabolic pathways by imposing *functional requirements* on the model.
 
-What's a reasonable objective that you'd attribute to a living bacterium?
+What's a reasonable requirement that you'd attribute to a living bacterium?
 
 ---
 

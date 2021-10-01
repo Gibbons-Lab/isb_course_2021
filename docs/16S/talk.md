@@ -251,7 +251,7 @@ We will now run the DADA2 plugin, which will do 3 things:
 
 <img src="assets/dada2.png" width="80%">
 
-Expectation-Maximization (EM) algorithm used to build a dataset-specific error model 
+Expectation-Maximization (EM) algorithm used to build a dataset-specific error model
 and find true amplicon sequence variants (ASVs), all at once.
 
 ---
