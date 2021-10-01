@@ -77,7 +77,7 @@ of Greg Caporaso and Rob Knight.
 > QIIME 2 is a powerful, extensible, and decentralized microbiome
 analysis package with a focus on data processing and analysis transparency.
 
-*Q*uantitative *i*nsights *i*nto *M*icrobial *E*cology
+*Q*uantitative *I*nsights *i*nto *M*icrobial *E*cology
 
 ---
 
@@ -181,7 +181,7 @@ https://doi.org/10.1038/nature24621
 <img src="assets/sample_sources.png" width="100%">
 
 - 15 samples from 5 environments
-- honey bee gut, cenotes in Yucatan, ocean, human gut, soil
+- honey bee gut, cenotes in Yucatan (freshwater), ocean, human gut, soil
 
 <br><br><br>
 
@@ -212,7 +212,7 @@ BBBBAF?A@D2BEEEGGGFGGGHGGGCFGFHHCFHCEFGGH...
 
 ---
 
-We have our raw sequencing data but QIIME 2 only operates on artifacts. How
+We have our raw sequencing data, but QIIME 2 only operates on artifacts. How
 do we convert our data into an artifact??
 
 :hatched_chick: or :egg:?
@@ -227,7 +227,7 @@ do we convert our data into an artifact??
 
 ---
 
-## Time to bring in the big guns :bomb::zap:
+## Time to bring out the big guns :bomb::zap:
 
 We will now run the DADA2 plugin, which will do 3 things:
 
@@ -243,7 +243,7 @@ We will now run the DADA2 plugin, which will do 3 things:
 1. trim low quality regions
 2. remove reads with low average quality
 3. remove reads with ambiguous bases (Ns)
-4. remove PhiX (added to sequencing)
+4. remove PhiX (bacteriophage genome commonly added as a control to sequencing runs)
 
 ---
 
@@ -251,8 +251,8 @@ We will now run the DADA2 plugin, which will do 3 things:
 
 <img src="assets/dada2.png" width="80%">
 
-Expectation-Maximization (EM) algorithm to find alternative sequence variants
-(ASVs) and the real error model at the same time.
+Expectation-Maximization (EM) algorithm used to build a dataset-specific error model 
+and find true amplicon sequence variants (ASVs), all at once.
 
 ---
 
@@ -260,7 +260,7 @@ Expectation-Maximization (EM) algorithm to find alternative sequence variants
 
 <img src="assets/chimera.png" width="60%">
 
-The primers used in this study were F515/R806. How long is the amplified fragment?
+The primers used in this study were F515/R806. The numbers denote positions along the 16S gene. So, how long is the amplified fragment?
 
 ---
 
@@ -269,7 +269,7 @@ We also have a list of ASVs.
 
 <br>
 
-:thinking_face: Do you have an idea for what we could do with those two data sets? What quantities
+:thinking_face: Do you have an idea for what we could do with these two data sets? What quantities
 might we be interested in?
 
 ---
@@ -290,11 +290,11 @@ How diverse is a single sample?
 <img src="assets/alpha_diversity.png" width="50%">
 
 - *richness:* how many taxa do we observe (richness)?<br>
-  → #observed taxa, Simpson index
+  → total number of observed taxa
 - *evenness*: how evenly are abundances distributed across taxa?<br>
   → Evenness index
 - *mixtures*: metrics that combine both richness and evenness<br>
-  → Shannon index
+  → Shannon index, Simpson's Index
 
 ---
 
@@ -326,14 +326,14 @@ Do samples share *genetically similar* taxa?
 
 <img src="assets/unifrac.png" width="70%">
 
-Weighted UniFrac scales branches by abundance.
+Weighted UniFrac further scales phylogenetic branch lengths by abundances.
 
 ---
 
 ## How to build a phylogenetic tree?
 
-One of the basic things we might want to look at is how the sequences across
-all samples are related to one another. That is, we are often interested in their *phylogeny*.
+One of the basic things we might want to look at is how the ASVs across
+all samples are evolutionarily related to one another. That is, we are often interested in their *phylogeny*.
 
 Phylogenetic trees are built from *multiple sequence alignments* and sequences are
 arranged by *sequence similarity* (branch length).
@@ -371,10 +371,10 @@ More complicated. Usually not normal and very heterogeneous. PERMANOVA can deal 
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-## But what organisms are there in our sample?
+## What organisms are present in our samples?
 
-We are still just working with sequences and have no idea what *organisms*
-those correspond to.
+We are still just working with sequences and we have no idea what *organisms*
+those sequences correspond to.
 
 <br>
 
@@ -398,14 +398,14 @@ seems most intuitive, this does not always work well in practice. Why?
 <img src="assets/naive_bayes.png" width="75%">
 
 Instead, use *subsequences (k-mers)* and their counts to *predict* the
-lineage/taxonomy with *machine learning* methods. For 16S amplicon fragments this
-often provides better *generalization* and faster results.
+lineage/taxonomy with *machine learning* methods. For 16S amplicon fragments, this
+approach often provides better *generalization* and faster results.
 
 ---
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-## Let's assign taxonomy to the samples
+## Let's assign taxonomy to our samples
 
 :computer: Let's switch to the notebook and assign taxonomy to our ASVs
 
@@ -413,7 +413,7 @@ often provides better *generalization* and faster results.
 
 ## Your turn
 
-What is the relationship between particular *taxa* and the environment they came from?
+Are certain *taxa* only found in one environment? Are others more widely distributed?
 
 <img src="assets/coding.gif" width="50%">
 
@@ -434,11 +434,16 @@ What is the relationship between particular *taxa* and the environment they came
 *ISB team* <br>
 Joey Petosa <br>
 Allison Kudla <br>
+Christian Diener <br>
 Sean Gibbons <br>
 Priyanka Baloni <br>
 Tomasz Wilmanski <br>
 Noa Rappaport <br>
-Alex Carr
+Alex Carr <br>
+Audri Hubbard <br>
+Renee Duprel <br>
+Joe Myxter <br>
+Thea Swanson
 
 # Thanks!
 
