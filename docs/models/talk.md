@@ -317,12 +317,6 @@ Let's combine *all* the results.
 
 ---
 
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
-## Challenge placeholder &#129440;
-
----
-
 <!-- .slide: data-background="assets/isb/microbes-azure.jpg" class="dark" -->
 
 ### And we are done :clap:
