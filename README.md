@@ -36,13 +36,24 @@ some slides are grouped vertically, you can navigate the presentation using
 the directional buttons on your keyboard.
 A [PDF version](part2.pdf) (lacks the output previews) is also available.
 
-# Licenses
+# Licensing
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br>
-Source code is licensed under the Apache License 2.0.
+All source code is licensed under the Apache License 2.0. This includes the notebooks deployed via Google Colaboratory.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />Content and artwork is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />Content and artwork is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. 
 
+This covers:
+
+- Text content of the presentations.
+- Illustrations and derived renders in the `illustrations` folder.
+- Top level images in `docs/*/assets`.
+
+The following content is not publically available and is *not* covered under the CC license above:
+
+- Everything in the `docs/*/assets/isb` folders.<br>
+  Those are images relating to the Institute for Systems Biology identity like backgrounds and logos
+  that are licensed exclusively to the Institute for Systems Biology, Seattle, WA, USA.
 
 # FAQ
 
