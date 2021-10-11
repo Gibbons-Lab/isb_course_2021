@@ -213,6 +213,22 @@ What's a reasonable requirement that you'd attribute to a living bacterium?
 
 ---
 
+<!-- .slide: data-background="assets/isb/microbes-midnight.jpg" class="dark" -->
+
+# The BIO-ML collection
+
+Sequenced 3,632 bacterial isolates from the human gut at the Broad Institute.
+
+Each participant will get a randomly assigned assembly from ~980 of those.
+
+<div class="footnote">
+
+https://doi.org/10.1038/s41591-019-0559-3
+
+</div>
+
+---
+
 ## Your turn
 
 <img src="assets/coding.gif" width="50%">
@@ -221,7 +237,7 @@ Let's go from an isolate genome assembly to a genome-scale metabolic model.
 
 ---
 
-!-- .slide: data-background="var(--secondary)" class="dark" -->
+<!-- .slide: data-background="var(--secondary)" class="dark" -->
 
 # Optimal growth rate ≠ unique fluxes
 
