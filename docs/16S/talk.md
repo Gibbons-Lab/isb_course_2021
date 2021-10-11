@@ -421,7 +421,27 @@ What is the relationship between particular *taxa* and the environment they came
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-## Challenge placeholder &#129440;
+## The project challenge &#129440;
+
+<img src="assets/challenge.png" width="70%">
+
+[Submit your figure here.](https://isb-microbiome.slack.com/archives/C02GZ4L392T)
+
+Note:
+
+Welcome to the 2021 ISB Microbiome Project challenge. Create a figure submission in this channel for a chance to win an awesome ISB T-shirt. Our team will pick one winning submission for each geographical region.
+
+Rules:
+- one entry per participant
+- figure content has to be created only using Qiime 2 and the EMP data set from the course
+- 4 panels (sub-figures) maximum, a single figure/plot is perfectly okay
+- must include text that provides the region you identify with and a caption for the figure
+
+Regions:
+Regions are from the [United Nations Geoscheme](http://united%20nations%20geoscheme/). You can use the map in the link with the following changes:
+
+- North America is split into: North America, United States, and Canada
+- Antarctica is included as a region
 
 ---
 
