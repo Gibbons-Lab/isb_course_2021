@@ -55,7 +55,7 @@ Let's get the slides first (use your computer, phone, TV, fridge, anything with 
 
 *All* output we generate can be found in the `treasure_chest` folder at
 
-https://github.com/gibbons-lab/isb_course_2021/treasure_chest
+https://github.com/gibbons-lab/isb_course_2021
 
 or `materials/treasure_chest` in the Colaboratory notebook.
 
