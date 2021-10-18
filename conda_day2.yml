@@ -1,0 +1,19 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.8
+  - cobra
+  - python-symengine
+  - seaborn
+  - umap-learn
+	- jinja2>=2.10.0
+	- scikit-learn>=0.22.0
+	- seaborn>=0.11
+	- scipy>=1.0.0
+	- requests>=2.0
+	- umap-learn
+	- scikit-bio
+  - rich
+  - pip:
+    - git+https://github.com/gibbons-lab/2021_microbiome_course_utils
